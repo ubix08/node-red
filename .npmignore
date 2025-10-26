@@ -1,0 +1,23 @@
+# Development files
+.github/
+test/
+Gruntfile.js
+*.md
+!README.md
+
+# Documentation
+docs/
+CHANGELOG.md
+CONTRIBUTING.md
+
+# Build artifacts
+.nyc_output/
+coverage/
+
+# Editor source files (not needed when editor disabled)
+packages/node_modules/@node-red/editor-client/src/
+
+# Development configs
+.eslintrc.js
+.jshintrc
+nodemon.json
