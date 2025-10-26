@@ -10,7 +10,8 @@
     },
     "private": "true",
     "scripts": {
-        "start": "node packages/node_modules/node-red/red.js",
+        "start": "node packages/node_modules/node-red/red.js --settings packages/node_modules/node-red/settings.js",
+        "start:prod": "NODE_ENV=production node packages/node_modules/node-red/red.js --settings packages/node_modules/node-red/settings.js",
         "test": "grunt",
         "build": "grunt build",
         "dev": "grunt dev",
