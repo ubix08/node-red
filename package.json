@@ -110,7 +110,6 @@
         "grunt-simple-nyc": "^3.0.1",
         "i18next-http-backend": "1.4.1",
         "jquery-i18next": "1.2.1",
-        "jsdoc-nr-template": "github:node-red/jsdoc-nr-template",
         "marked": "4.3.0",
         "mermaid": "11.9.0",
         "minami": "1.2.3",
